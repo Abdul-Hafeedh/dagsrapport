@@ -2,6 +2,7 @@
   "name": "dagsrapport",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "test.js",
   "dependencies": {
     "i": "^0.3.6",

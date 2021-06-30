@@ -5,18 +5,21 @@
     <title>Hello world!</title>
   </head>
   <body>
-    <h1>User List</h1>
-    <ul>
-      {{#each pdfusers}}
-      <li>Name: {{this.name}}</li>
-      <li>Age: {{this.age}}</li>
-      <li>nyt punkt: {{this.punkt}}</li>
-      <br />
-      {{/each}}
-    </ul>
+    <h2>
+      ANDREAS PERSONLIGE STYKKE PAPIR
+    </h2>
 
+      <h3>
+          Temperatur til morgen: {{this.pdfweather.daily_temps.morn}} grader
+          <br>
+          Temperatur til middag: {{this.pdfweather.daily_temps.day}} grader
+          <br>
+          Temperatur i aften: {{this.pdfweather.daily_temps.eve}} grader
+          <br>
+          Vejret: {{this.pdfweather.daily_weather}}
+      </h3>
       <h1>
-          Temperatur: {{this.pdfweather.main.temp}}
+        
       </h1>
   </body>
 </html>
