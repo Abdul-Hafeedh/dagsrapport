@@ -4,7 +4,9 @@
   "description": "",
   "main": "test.js",
   "dependencies": {
-    "i": "^0.3.6"
+    "i": "^0.3.6",
+    "node-fetch": "^2.6.1",
+    "pdf-creator-node": "^2.2.2"
   },
   "devDependencies": {},
   "scripts": {
