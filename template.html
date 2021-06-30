@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <mate charest="utf-8" />
+    <title>Hello world!</title>
+  </head>
+  <body>
+    <h1>User List</h1>
+    <ul>
+      {{#each pdfusers}}
+      <li>Name: {{this.name}}</li>
+      <li>Age: {{this.age}}</li>
+      <li>nyt punkt: {{this.punkt}}</li>
+      <br />
+      {{/each}}
+    </ul>
+
+      <h1>
+          Temperatur: {{this.pdfweather.main.temp}}
+      </h1>
+  </body>
+</html>
