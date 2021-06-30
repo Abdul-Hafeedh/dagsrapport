@@ -4,7 +4,7 @@ var fs = require("fs");
 var fetch = require('node-fetch');
 
 // Read HTML Template
-var html = fs.readFileSync("template.html", "utf8");
+var html = fs.readFileSync("src/template.html", "utf8");
 
 console.log("ran test")
 
@@ -82,12 +82,12 @@ var users = [
       pdfusers: users,
       pdfweather: weather2,
     },
-    path: "./output.pdf",
+    path: "./output/output.pdf",
     type: "",
   };
 
 var options = {
-    format: "A3",
+    format: "A4",
     orientation: "portrait",
     border: "10mm",
     header: {
